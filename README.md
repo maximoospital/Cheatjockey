@@ -5,7 +5,6 @@ This app converts Spotify, SoundCloud and YouTube playlists to MP3s of the highe
 
 This app does not decode files downloaded by Spotify nor does it use its API for piracy, it purely reads playlists through it.
 
-![Autor](https://badgen.net/github/release/maximoospital/Cheatjockey) 
 ## Features
 
 - Downloads songs in playlists from:
