@@ -1,7 +1,7 @@
 
 # ![Logo](https://i.imgur.com/Ox9eYbt.png)
 
-This app converts Spotify, SoundCloud and YouTube playlists to MP3s of the highest possible quality ( without recurring to illegal sources, of course ;) ).
+This app converts Spotify, SoundCloud, Bandcamp and YouTube links to MP3s of the highest possible quality ( without recurring to illegal sources, of course ;) ).
 
 This app does not decode files downloaded by Spotify nor does it use its API for piracy, it purely reads playlists through it.
 
@@ -11,7 +11,11 @@ This app does not decode files downloaded by Spotify nor does it use its API for
     - Spotify
     - SoundCloud
     - YouTube
-- Log window gives real-time update of the process
+    - BandCamp
+- Logs are made for debugging
+- Can download tracks, albums and playlists
+- Albums and playlists are formatted according to their index/playlist order
+- Adds ID3 metadata tags
 - Made with the objective of being a resource-efficient and minimal app, scripted in Python.
 
 
