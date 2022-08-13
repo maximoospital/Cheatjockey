@@ -18,7 +18,7 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 # Define the window's contents
 layout = [
     [sg.Image(filename='logocopy.png', size=(200, 40), pad=(0, 0)),
-     sg.Text('v1.2.1', size=(29, 1), pad=(2, 0), font=('Any 10')), sg.Button('Help', pad=(2, 0))],
+     sg.Text('v1.2.2', size=(29, 1), pad=(2, 0), font=('Any 10')), sg.Button('Help', pad=(2, 0))],
     [sg.Text("URL:         ", font=('Any 10 bold'), pad=(2, 0)), sg.Input(key='LINK')],
     [sg.Text("Output:     ", font=('Any 10 bold'), pad=(2, 0)), sg.InputText(key='FOLDER'),
      sg.FolderBrowse(initial_folder=working_directory, target='FOLDER')],
@@ -31,7 +31,7 @@ layout = [
 ]
 
 # Create the window
-window = sg.Window('cheatjockey v1.2', layout, size=(500, 215), margins=(5, 5))
+window = sg.Window('cheatjockey v1.2.2', layout, size=(500, 215), margins=(5, 5))
 
 # Display and interact with the Window using an Event Loop
 while True:
