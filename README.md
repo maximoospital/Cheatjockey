@@ -1,4 +1,4 @@
-
+WARNING: HIGHLY OUTDATED AND BROKEN. WILL BE REWRITTEN SHORTLY.
 # ![Logo](https://i.imgur.com/Ox9eYbt.png)
 
 This app converts Spotify, SoundCloud, Bandcamp and YouTube links to MP3s of the highest possible quality ( without recurring to illegal sources, of course ;) ).
